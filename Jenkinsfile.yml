@@ -1,5 +1,5 @@
 pipeline {
-  agent dor
+  agent any
 
   stages {
     stage('Build') {
